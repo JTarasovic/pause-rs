@@ -1,6 +1,6 @@
 # pause-rs
 
-This is an experiment to create a tiny pause container following
+This is an experiment to create a tiny pause binary following
 [these instructions](https://github.com/johnthagen/min-sized-rust/blob/fdfd162f63a1e6dbaad4e866dc0d3089f4214a1e/README.md).
 
 // TODO(jdt): add further details about test setup, etc
@@ -15,35 +15,35 @@ This is an experiment to create a tiny pause container following
 <tr>
 
 <tr>
-<td>`cargo build --bin original`</td><td>6612</td>
+<td><code>cargo build --bin original</code></td><td>6612</td>
 <tr>
 
 <tr>
-<td>`cargo build --bin original --profile release`</td><td>4176</td>
+<td><code>cargo build --bin original --profile release</code></td><td>4176</td>
 <tr>
 
 <tr>
-<td>`cargo build --bin original --profile strip`</td><td>347</td>
+<td><code>cargo build --bin original --profile strip</code></td><td>347</td>
 <tr>
 
 <tr>
-<td>`cargo build --bin original --profile optz`</td><td>355</td>
+<td><code>cargo build --bin original --profile optz</code></td><td>355</td>
 <tr>
 
 <tr>
-<td>`cargo build --bin original --profile lto`</td><td>299</td>
+<td><code>cargo build --bin original --profile lto</code></td><td>299</td>
 <tr>
 
 <tr>
-<td>`cargo build --bin original --profile cgu`</td><td>299</td>
+<td><code>cargo build --bin original --profile cgu</code></td><td>299</td>
 <tr>
 
 <tr>
-<td>`cargo build --bin original --profile panic`</td><td>295</td>
+<td><code>cargo build --bin original --profile panic</code></td><td>295</td>
 <tr>
 
 <tr>
-<td>`cargo build --bin nomain --profile panic`</td><td>279</td>
+<td><code>cargo build --bin nomain --profile panic</code></td><td>279</td>
 <tr>
 
 <tr>
